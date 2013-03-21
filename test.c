@@ -1,8 +1,10 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>
-int main(int argc,char *argv[])
+int main(int argc,char *argv[],char *envp[])
 {
+
+extern char **environ;
   int pid = fork();
   
   if(pid < 0){
@@ -11,6 +13,7 @@ int main(int argc,char *argv[])
     FILE *ofs=NULL;
     ofs = fopen("child1.txt","wt");
     fprintf(ofs, "%d %d\n", pid, getpid());
+    execle("/usr/bin/env", "/usr/bin/env", 0, envp);
     fclose(ofs);
   }
   else{
