@@ -1,0 +1,36 @@
+﻿Построение начато 17.03.2013 15:53:40.
+     1>Проект "C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\data_about_a_person\data_about_a_person.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\data_about_a_person.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Moc'ing Controller.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.4\include\qtmain /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp GeneratedFiles\Debug\moc_Controller.cpp Model.cpp Vid.cpp main.cpp
+         Controller.cpp
+         moc_Controller.cpp
+         Model.cpp
+         Vid.cpp
+         main.cpp
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\\data_about_a_person.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\data_about_a_person.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\data_about_a_person.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\data_about_a_person.lib" /MACHINE:X86 Debug\Controller.obj
+         Debug\data_about_a_person.obj
+         Debug\moc_Controller.obj
+         Debug\moc_data_about_a_person.obj
+         Debug\qrc_data_about_a_person.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\Vid.obj
+         LINK : не найден или не выполнена сборка C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\\data_about_a_person.exe при последней инкрементной компоновке; выполняется полная компоновка
+         data_about_a_person.vcxproj -> C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\data_about_a_person.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\\data_about_a_person.exe;#1" /manifest Debug\data_about_a_person.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\data_about_a_person.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\data_about_a_person.lastbuildstate".
+     1>Построение проекта "C:\Users\админ2\documents\visual studio 2010\Projects\data_about_a_person\data_about_a_person\data_about_a_person.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:05.55
