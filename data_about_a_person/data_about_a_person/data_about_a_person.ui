@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>data_about_a_personClass</class>
+ <widget class="QMainWindow" name="data_about_a_personClass" >
+  <property name="objectName" >
+   <string notr="true">data_about_a_personClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>data_about_a_person</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="data_about_a_person.qrc"/>
+ </resources>
+ <connections/>
+</UI>
