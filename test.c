@@ -27,10 +27,9 @@ extern char **environ;
     int i=0;
     printf("parent %d %d\n", pid, getpid());
     while(1){
-     
-      if( read(fd[0], exp, i)!=0)
-    i++;
-      else break ;
+      if( read(fd[0], exp[i],1)==0)i++;
+      else
+          break;
     }
     close(fd[0]);
   }
